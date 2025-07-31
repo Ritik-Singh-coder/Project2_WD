@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 3vw;
+    padding-top: 20vh;
+    padding-left: 5vw;
+}
+
+#left {
+    /* background-color: aquamarine; */
+    width: 40%;
+    height: 90%;
+
+
+}
+
+#left h1 {
+    font-size: 7vw;
+    font-weight: 400;
+    /* background-color: darkcyan; */
+    margin-bottom: 12vh;
+}
+
+#left-bottom {
+    /* background-color: darkslateblue; */
+    width: fit-content;
+    height: auto;
+    display: flex;
+    padding: 5px 7px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+
+
+
+
+
+}
+
+#left-bottom p {
+    margin-right: 10px;
+    font-size: 1.7vh;
+    font-weight: 200;
+    color: #333;
+}
+
+#color1 {
+    width: 16px;
+    height: 16px;
+    background-color: cadetblue;
+    border-radius: 50%;
+    margin-right: 5px;
+
+
+}
+
+#color2 {
+    width: 16px;
+    height: 16px;
+    background-color: lightgreen;
+    border-radius: 50%;
+
+}
+
+#left-bottom-2-h1 {
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 2;
+    font-weight: 700
+}
+
+#left-bottom-2-p {
+    font-size: 15px;
+    font-weight: 100;
+    color: #333;
+    line-height: 1.5;
+}
+
+
+#right {
+    /* background-color: cornflowerblue; */
+    width: 30%;
+    height: 100%;
+    position: relative;
+    background-image: url(https://plus.unsplash.com/premium_photo-1751667124857-32b5a1c63d8a?q=80&w=441&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+
+#right-top {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+}
+
+#rt-h2 {
+    font-size: 18px;
+    color: #333;
+}
+
+#rt-h4 {
+    font-size: 13px;
+    color: #333;
+}
+
+#rt-h4 i {
+    color: goldenrod;
+}
+
+#gola {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(25, 25, 28);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 30%;
+    left: 88%;
+}
+
+#gola-h2 {
+    font-size: 17px;
+    color: white;
+}
+
+#right h1 {
+    position: absolute;
+    left: -10%;
+    bottom: 0px;
+    rotate: -90deg;
+    transform-origin: 0 0;
+}
